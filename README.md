@@ -37,3 +37,27 @@ BitTree is a modern, minimalist **Linktree clone** that allows users to create a
 git clone https://github.com/yourusername/bittree.git
 cd bittree
 ```
+
+###2. Install dependencies
+
+```bash
+npm install
+```
+
+###3. Configure environment variables
+
+Create a .env.local file with your MongoDB URI:
+
+```ini
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority
+```
+
+4. Run the development server
+
+```bash
+npm run dev
+```
+
+Visit http://localhost:3000 to view the homepage.
+
+
