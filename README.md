@@ -68,6 +68,14 @@ Visit:
 http://localhost:3000/generate?handle=vinay
 ```
 
+💡 Inspiration
+
+This project is inspired by Linktree, designed to be a simplified clone with personalized touch and developer control.
+
+Made with ❤
+
+by vinay
+
 and after creation:
 
 ```bash
