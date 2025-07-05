@@ -1,4 +1,4 @@
-# 🌳 BitTree – Your Personalized Link-in-Bio Page
+# 🌳 BitTree – Get Your Personalized Link-in-Bio Page 
 
 BitTree is a modern, minimalist **Linktree clone** that allows users to create a personal landing page with a unique handle, profile picture, and multiple custom links. It's perfect for creators, professionals, or anyone who wants to share all their important links through a single bio page.
 
@@ -60,4 +60,16 @@ npm run dev
 
 Visit http://localhost:3000 to view the homepage.
 
+📝 Example
 
+Visit:
+
+```bash
+http://localhost:3000/generate?handle=vinay
+```
+
+and after creation:
+
+```bash
+http://localhost:3000/vinay
+```
