@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter()
@@ -7,6 +7,7 @@ export default function Home() {
   const createTree = () => {
     router.push(`/generate?handle=${encodeURIComponent(text)}`)
   }
+ 
   return (
     <main>
       <section className="bg-[rgb(37,79,26)]  grid grid-cols-2 px-[5vw] pt-[31vh]  pb-[25vh]" >
