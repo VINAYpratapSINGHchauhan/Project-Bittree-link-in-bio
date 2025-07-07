@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>
         {children}

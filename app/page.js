@@ -10,18 +10,18 @@ export default function Home() {
  
   return (
     <main>
-      <section className="bg-[rgb(37,79,26)]  grid grid-cols-2 px-[5vw] pt-[31vh]  pb-[25vh]" >
+      <section className="bg-[rgb(37,79,26)] flex flex-col md:grid grid-cols-2 px-[5vw] md:pt-[31vh] pt-[15vh] md:pb-[25vh] p-14" >
         <div className="content flex flex-col justify-start gap-7">
-          <h1 className="text-7xl font-black text-[#d2e823] ">Everything you are. In one, simple link in bio.</h1>
-          <div className="btns flex gap-2 py-5">
-            <input value={text} onChange={(e) => { settext(e.target.value) }} className='bg-white text-[#867975] rounded-lg py-4.5 px-3 w-[43%] font-medium' type="text" placeholder="Enter your handle" />
-            <button onClick={() => { createTree() }} className='cursor-pointer hover:bg-fuchsia-400 bg-[#e9c0e9] text-[#1e2341] rounded-full py-4.5 px-7  font-bold'>Claim your BitTree</button>
+          <h1 className="md:text-7xl text-5xl font-black text-[#d2e823] ">Everything you are. In one, simple link in bio.</h1>
+          <div className="btns flex  gap-2 md:py-5 ">
+            <input value={text} onChange={(e) => { settext(e.target.value) }} className='bg-white text-[#867975] rounded-lg md:py-4.5 py-2.5 px-1.5 w-[43%] font-medium' type="text" placeholder="Enter your handle" />
+            <button onClick={() => { createTree() }} className='cursor-pointer hover:bg-fuchsia-400 bg-[#e9c0e9] text-[#1e2341] rounded-full  md:px-7  px-2.5 font-bold'>Claim your BitTree</button>
           </div>
-          <div className="lines text-white text-lg font-medium">Join 70M+ people using BitTree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</div>
+          <div className="lines text-white md:text-lg   text-sm font-medium">Join 70M+ people using BitTree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</div>
         </div>
-        <div className="gifs "><img className="pl-6 h-[105%] w-[110%]" src="./home.png" alt="" /></div>
+        <div className="gifs hidden md:block "><img className="pl-6 h-[105%] w-[110%]" src="./home.png" alt="" /></div>
       </section>
-      <section className="bg-[#e9c0e9] gap-10 grid grid-cols-2 px-[5vw] pt-[25vh] " >
+      <section className="bg-[#e9c0e9] gap-10 flex flex-col md:grid  grid-cols-2 px-[5vw] md:pt-[25vh] p-10 " >
         <div className="gifs "><img className="pl-6 h-[100%] w-[100%]" src="./home2.png" alt="" /></div>
         <div className="content flex flex-col justify-center gap-7 ">
           <h1 className="text-5xl font-black text-[#502274] ">Create and customize your BitTree in minutes</h1>
