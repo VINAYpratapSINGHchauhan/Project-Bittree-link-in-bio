@@ -14,6 +14,10 @@ BitTree is a modern, minimalist **Linktree clone** that allows users to create a
 - 📦 Simple JSON-based API to add and fetch BitTree profiles
 - ✅ Form validation and duplicate handle protection
 - 🔁 Clean redirection and URL handling with `encodeURIComponent`
+- ✅ Fully responsive design (mobile/desktop)
+- 🔔 Toast notifications for feedback
+- 📅 MongoDB-based backend for data storage
+- 📍 URL routing using dynamic [handle] routes
 
 ---
 
